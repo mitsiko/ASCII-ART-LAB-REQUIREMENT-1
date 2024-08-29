@@ -3,8 +3,9 @@ katakana = "\33[35m"
 name1 = "\33[33m"
 name2 = "\33[32m"
 
-print("") # line space for aesthetic purposes
-print("") # line space for aesthetic purposes
+# line spaces for aesthetic purposes
+print("") 
+print("") 
 
 print(f"{squares}.------..------..------. {katakana}         #     #                         # ")
 print(f"{squares}| .--. || .--. || .--. | {katakana}       #  ##########   ##          #   #   ")
@@ -20,7 +21,8 @@ print(f"{name1}██║╚██╔╝██║██║██║     ██╔
 print(f"{name1}██║ ╚═╝ ██║██║╚██████╗██║  ██║██║██║  ██╗╚██████╔╝ {squares} ███╗  ███╗  ███╗   ")
 print(f"{name1}╚═╝     ╚═╝╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═╝ ╚═════╝  {squares}  ╚═╝   ╚═╝   ╚═╝   ") 
 
-print("") # line space for aesthetic purposes
-print("") # line space for aesthetic purposes
+# line spaces for aesthetic purposes
+print("") 
+print("") 
 
  
