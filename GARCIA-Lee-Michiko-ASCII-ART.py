@@ -1,28 +1,31 @@
-squares = "\33[37m"
-katakana = "\33[35m"
-name1 = "\33[33m"
-name2 = "\33[32m"
+# variables for assigning colors
+stars = '\33[93m'
+cat = '\33[96m'
+name1 = '\33[95m'
+katakana = '\33[96m'
 
 # line spaces for aesthetic purposes
 print("") 
 print("") 
 
-print(f"{katakana}#######      ######                      #   {squares}.------..------..------.")
-print(f"{katakana}       #       #       ##          #   #     {squares}| .--. || .--. || .--. |")
-print(f"{katakana}      ##  ###########  #  ##         # #     {squares}| :/\: || (\/) || (\/) |")
-print(f"{katakana}   ## #       #      #     ##        #       {squares}| (__) || :\/: || :\/: |")
-print(f"{katakana}  ##   #      #              ##    ## #      {squares}| '--' || '--' || '--' |")
-print(f"{katakana}  #      #      ####              ##    #    {squares}`------'`------'`------'")
-print(f"{name2}                                                       __   ___  ___             ")
-print(f"{name1}███╗   ███╗██╗ ██████╗██╗  ██╗██╗██╗  ██╗ ██████╗  {name2}   / /  / _/ / _/      ")
-print(f"{name1}████╗ ████║██║██╔════╝██║  ██║██║██║ ██╔╝██╔═══██╗ {name2}  / /_ / _/ / _/       ")
-print(f"{name1}██╔████╔██║██║██║     ███████║██║█████╔╝ ██║   ██║ {name2} /___//___//___/       ")
-print(f"{name1}██║╚██╔╝██║██║██║     ██╔══██║██║██╔═██╗ ██║   ██║                               ")
-print(f"{name1}██║ ╚═╝ ██║██║╚██████╗██║  ██║██║██║  ██╗╚██████╔╝ {squares} ███╗  ███╗  ███╗    ")
-print(f"{name1}╚═╝     ╚═╝╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═╝ ╚═════╝  {squares}  ╚═╝   ╚═╝   ╚═╝    ") 
+print(f"{stars}                   +             |                      +                                          ")   
+print(f"{stars}         +                      -O-      _.._      {cat}\`*-. {stars}             +                ")
+print(f"{katakana}#######      ######        {stars}  +   |   .' .-'`       {cat} )  _`-. {stars}   +             ")
+print(f"{katakana}        #       #       ##  {stars}        /  /           {cat}.  : `. .  {stars}       |       ")
+print(f"{katakana}       ##  ###########  #  ## {stars}     |   |    +      {cat}: _   '  \  {stars}     -O-      ")
+print(f"{katakana}    ## #       #      #     ##  {stars}    \  \           {cat}; *` _.   `*-._ {stars}  |    +  ")
+print(f"{katakana}   ##   #      #              ## {stars}     '._'-._      {cat}`-.-'           `-.  {stars}     ")
+print(f"{katakana}   #      #      ####          #  {stars}  +    ```   +   {cat}   ;       `       `.  {stars}   ") 
+print(f"{katakana}                                                   {cat}   :.       .        \  {stars}         ") 
+print(f"{name1}███╗   ███╗██╗ ██████╗██╗  ██╗██╗██╗  ██╗ ██████╗  {cat}   . \  .   :   .-'   .  {stars}           ") 
+print(f"{name1}████╗ ████║██║██╔════╝██║  ██║██║██║ ██╔╝██╔═══██╗ {cat}   '  `+.;  ;  '      : {stars}            ")
+print(f"{name1}██╔████╔██║██║██║     ███████║██║█████╔╝ ██║   ██║ {cat}   :  '  |    ;       ;-. {stars}          ") 
+print(f"{name1}██║╚██╔╝██║██║██║     ██╔══██║██║██╔═██╗ ██║   ██║ {cat}   ; '   : :`-:     _.`* ;{stars}          ")                       
+print(f"{name1}██║ ╚═╝ ██║██║╚██████╗██║  ██║██║██║  ██╗╚██████╔╝ {cat} .*' /  .*' ; .*`- +'  `*'{stars}          ")
+print(f"{name1}╚═╝     ╚═╝╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═╝ ╚═════╝  {cat}`*-*   `*-*  `*-*'        {stars}          ") 
 
 # line spaces for aesthetic purposes
 print("") 
 print("") 
 
- 
+
