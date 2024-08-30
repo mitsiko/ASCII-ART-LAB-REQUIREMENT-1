@@ -1,8 +1,8 @@
 # variables for assigning colors
-stars = '\33[93m'
-cat = '\33[96m'
-name1 = '\33[95m'
-katakana = '\33[96m'
+stars = '\33[38;5;120m'
+cat = '\33[38;5;218m'
+name1 = '\33[38;5;120m'
+katakana = '\33[38;5;218m'
 
 # line spaces for aesthetic purposes
 print("") 
